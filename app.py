@@ -23,8 +23,8 @@ def get_today_texts():
 @app.route('/fortune')
 def fortune():
     data = get_today_texts()
-    print(data)
-    return render_template('fortune.html', title='Daily Fortune', text="Unexpected blessings await you.")#data['fortune'])
+    #print(data['fortune'])
+    return render_template('fortune.html', title='Daily Fortune', text=data['fortune'])
 
 @app.route('/motivation')
 def motivation():
