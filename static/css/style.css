@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.text-box {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.share-buttons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
